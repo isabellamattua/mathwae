@@ -45,6 +45,11 @@ main{
   background-color: #c7d2e7;
 }
 
+#output{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
 .calculator input   {
   /* reset basic form styles */
   background: #fff;
@@ -63,7 +68,7 @@ main{
 .calc-button  {
   background: #ffffff; /* light background with opacity 50% */
   border: 2px solid #738cc385; /* black border */
-  padding: 10px;
+  padding: 5px;
   color: #000; /* white text */
   border-radius: 5px; /* rounded corners */
   font-size: 22px; /* larger fonts */
@@ -72,7 +77,11 @@ main{
 
 .calculator-buttons {
   /* small spacing within our container */
-  padding: 20px;
+  /* padding: 20px; */
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   /* the grid stuff! */
   display: grid;
