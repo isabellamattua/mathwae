@@ -108,3 +108,22 @@ main{
 .is-equals, .operator{
   background: #96add2;
 }
+
+/*--------------------------------------------------------------*/
+
+.logo {
+
+  text-align: center;
+  display: block;
+  border-bottom: black;
+  border-style: none none solid none;
+  border-width: 1px;
+
+}
+
+#logo-img{
+
+  padding-top: 10px;
+  width: 10%;
+
+}
