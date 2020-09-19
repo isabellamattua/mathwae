@@ -4,6 +4,15 @@
         <meta charset="utf-8">
         <title>MathWae</title>
         <link rel="stylesheet" href="style.css">
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                if($("#meme").css("opacity") == "0"){
+                    $("#meme").animate({opacity: "0.5"});
+                    $("#meme").animate({opacity: "1"});
+                }
+            });
+        </script>
     </head>
     <body>
         <div class = "logo">
@@ -12,7 +21,8 @@
             <div id="right-nav"><img id="person-img" src="assets/person.svg" alt="Mathwae Logo" width="30px" height="30px"></div>
         </div>
         <div id="meme">
-            center<img id="meme-img" src="" alt="meme">
+            <img id="meme-img" src="" alt="meme"><br>
+            <a href="/index.html">back to main page...</a>
         </div>
     </body>
 </html>
