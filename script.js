@@ -35,7 +35,7 @@ var $ = jQuery.noConflict();
             // var replaced = outPutDisplay.val().replace(/×/g, "*").replace(/÷/g, "/").replace(/−/g, "-").replace(/\+/g, "+");
             // outPutDisplay.val(testNumLength(eval(replaced)));
             //INSTEAD SEND USER TO ANOTHER PAGE
-            window.location.href = "/mathwae/meme.html";
+            window.location.href = "meme.html";
         })
         $(document).keydown(function(event) {
             var keycode = (event.keyCode ? event.keyCode : event.which);
