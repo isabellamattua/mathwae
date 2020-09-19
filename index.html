@@ -9,14 +9,24 @@
     <body>
 
         <div class = "logo">
+            <div id="left-nav">Simple Math</div>
             <img id="logo-img" src="assets/MathwaeLogo.svg" alt="Mathwae Logo">
-
+            <div id="right-nav"><img id="person-img" src="assets/person.svg" alt="Mathwae Logo" width="30px" height="30px"></div>
         </div>
+
 
         <div class="calculator">
 
+            <div class= "help-bubble">
+                <img src ="assets/MathwaeBubbleImg.svg" width="65px" height="75px">
+                <div id = "message-bubble">
+                    <p id = "main-message">How can I help you?</p>
+                    <p id="tiny-message"><img src ="assets/QuestionMarkImg.svg" width="13px" height="13px">Tap to view tutorial...</p>
+                </div>    
+            </div>
+
             <!-- the output -->
-            <input id="output" type="text" disabled>
+            <input id="output" type="text" placeholder="Enter a problem..." disabled>
         
             <!-- the input buttons -->
             <div class="calculator-buttons">
